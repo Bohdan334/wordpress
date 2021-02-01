@@ -1,0 +1,347 @@
+@media (max-width: 1170px) {
+  .container {
+    max-width: 990px;
+  }
+  .promo {
+    &__title {
+      font-size: 35px;
+    }
+
+    &__subtitle-easy {
+      font-size: 70px;
+    }
+    &__subtitle-easy:before,
+    &__subtitle-easy:after {
+      width: 230px;
+    }
+    &__subtitle-correct {
+      font-size: 35px;
+    }
+    &__text {
+      width: 100%;
+      font-size: 20px;
+    }
+    &__btn {
+      @include button(50px 0);
+    }
+    &__more {
+      font-size: 20px;
+    }
+  }
+  .waiting {
+    padding: 50px 0 50px;
+
+    &__item {
+      width: 330px;
+      margin: 0 5px;
+    }
+
+    &__img {
+      margin-bottom: 33px;
+      width: 100%;
+      height: auto;
+    }
+  }
+  .optimization {
+    padding: 50px 0 50px;
+  }
+  .bonus {
+    padding: 40px 0 50px;
+  }
+  .webinar {
+    padding: 50px 0 50px;
+  }
+  .footer {
+    padding: 50px 0;
+  }
+}
+@media (max-width: 990px) {
+  .container {
+    max-width: 770px;
+  }
+  .subtitle {
+    font-size: 30px;
+  }
+  .promo {
+    padding: 40px 0;
+    &__subtitle-easy {
+      font-size: 58px;
+    }
+    &__subtitle-easy:before,
+    &__subtitle-easy:after {
+      width: 180px;
+    }
+    &__text {
+      width: 100%;
+      font-size: 20px;
+    }
+    &__btn {
+      @include button(50px 0);
+      font-size: 18px;
+      padding: 24px 25px;
+    }
+    &__more {
+      font-size: 18px;
+    }
+  }
+  .waiting {
+    padding: 40px 0 30px;
+    &__line {
+      @include line(18px 0 17px);
+      width: 190px;
+      height: 3px;
+    }
+    &__item {
+      width: 260px;
+      margin: 0 5px;
+    }
+    &__img {
+      margin-bottom: 18px;
+    }
+  }
+  .optimization {
+    padding: 30px 0 15px;
+    &__img {
+      bottom: -15px;
+    }
+    &__text {
+      margin-left: 320px;
+    }
+  }
+  .you-can {
+    padding: 50px 0 50px;
+    &__line {
+      @include line(23px 0 41px);
+      width: 190px;
+      height: 3px;
+    }
+  }
+  .bonus {
+    padding: 30px 0 30px;
+    &__text {
+      color: #252525;
+      font-size: 26px;
+      line-height: 36px;
+      margin: 35px 0 30px;
+    }
+    &__btn {
+      @include button(25px 0);
+      font-size: 18px;
+      padding: 24px 25px;
+    }
+  }
+}
+@media (max-width: 770px) {
+  .subtitle {
+    font-size: 27px;
+  }
+  .promo {
+    &__title {
+      margin: 40px 0 20px;
+    }
+    &__subtitle-easy {
+      font-size: 45px;
+    }
+    &__subtitle-easy:before,
+    &__subtitle-easy:after {
+      display: none;
+    }
+    &__subtitle-correct {
+      margin: 20px 0 20px;
+      line-height: 32px;
+    }
+    &__text {
+      font-size: 18px;
+    }
+    &__btn {
+      @include button(40px 0);
+      font-size: 16px;
+    }
+    &__more {
+      font-size: 16px;
+    }
+  }
+  .waiting {
+    padding: 40px 0 30px;
+    &__line {
+      @include line(18px 0 17px);
+      width: 190px;
+      height: 3px;
+    }
+    &__items {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    &__item {
+      width: 260px;
+      margin: 0 15px 15px;
+    }
+    &__img {
+      margin-bottom: 18px;
+    }
+    &__text {
+      font-weight: 400;
+      line-height: 19px;
+    }
+  }
+  .optimization {
+    padding: 30px 0;
+    &__img {
+      display: none;
+    }
+    &__text {
+      text-align: center;
+      margin: 0;
+    }
+  }
+  .you-can {
+    padding: 50px 0 35px;
+    &__line {
+      @include line(23px 0 41px);
+      width: 190px;
+      height: 3px;
+    }
+    &__items {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &__item {
+      width: 33.333%;
+      margin-bottom: 15px;
+    }
+  }
+  .bonus {
+    padding: 30px 0 10px;
+    &__text {
+      font-size: 23px;
+      line-height: 30px;
+    }
+    &__btn {
+      @include button(20px 0);
+      font-size: 18px;
+      padding: 24px 25px;
+    }
+  }
+  .webinar {
+    padding: 30px 0;
+    &__time {
+      font-size: 30px;
+      margin: 20px 0;
+    }
+  }
+}
+@media (max-width: 575px) {
+  .subtitle {
+    font-size: 19px;
+    line-height: 20px;
+  }
+  .logo__text {
+    font-size: 13px;
+  }
+  .promo {
+    padding: 20px 0;
+    &__title {
+      margin: 25px 0 12px;
+      line-height: 20px;
+    }
+    &__subtitle-easy {
+      font-size: 25px;
+    }
+    &__subtitle-easy:before,
+    &__subtitle-easy:after {
+      display: none;
+    }
+    &__subtitle-correct {
+      margin: 12px 0 20px;
+    }
+    &__text {
+      font-size: 16px;
+      line-height: 20px;
+    }
+    &__btn {
+      @include button(30px 0);
+      font-size: 16px;
+    }
+    &__more {
+      font-size: 16px;
+    }
+  }
+  .waiting {
+    padding: 30px 0 15px;
+    &__line {
+      width: 110px;
+    }
+    &__subtitle {
+      font-size: 16px;
+      margin-bottom: 15px;
+      line-height: 18px;
+    }
+  }
+  .optimization {
+    padding: 30px 0;
+    &__img {
+      display: none;
+    }
+    &__text {
+      text-align: center;
+      margin: 0;
+    }
+    &__paragraphs {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 20px;
+    }
+  }
+  .you-can {
+    padding: 30px 0 10px;
+    &__line {
+      @include line(23px 0 30px);
+      width: 110px;
+    }
+    &__item {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    &__circle {
+      margin-bottom: 15px;
+    }
+  }
+  .bonus {
+    &__text {
+      font-size: 21px;
+      line-height: 28px;
+      margin: 25px 0 10px;
+    }
+    &__btn {
+      font-size: 16px;
+    }
+  }
+  .webinar {
+    &__img {
+      width: 260px;
+      height: 153px;
+    }
+    &__time {
+      font-size: 18px;
+      margin: 18px 0;
+    }
+    &__subtitle {
+      font-size: 18px;
+    }
+  }
+  .footer {
+    padding: 25px 0;
+    font-size: 12px;
+    a {
+      font-size: 12px;
+    }
+    &__support {
+      margin-right: 3px;
+    }
+    &__confidentiality {
+      margin-left: 3px;
+    }
+  }
+}
